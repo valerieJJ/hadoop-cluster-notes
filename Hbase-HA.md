@@ -1,6 +1,6 @@
 # Hbase高可用的玩法
 
-（注：此处backup-master我只设置了一个节点作为备用master。也可以设置多个master，则master挂掉后，zookeeper会从这些backup-master中选举一个master。）
+（注：此处backup-master我只设置了一个节点作为备用master。也可以设置多个backup-master，则master挂掉后，zookeeper会从这些backup-master中选举一个master。）
 
 主节点master上
 
