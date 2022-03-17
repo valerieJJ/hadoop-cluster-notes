@@ -1,6 +1,15 @@
 # Hbase高可用的玩法
 
-（注：此处backup-master我只设置了一个节点作为备用master。也可以设置多个backup-master，则master挂掉后，zookeeper会从这些backup-master中选举一个master。）
+（注：此处backup-master我只设置了一个节点作为备用master。
+
+也可以设置多个backup-master，则master挂掉后，zookeeper会从这些backup-master中选举一个master。
+但要注意前提是zk集群节点数量>=3。
+
+根据“过半法则”，过半存活即可用：
+- 3节点zookeeper，一个主节点挂了，另外两个备节点过半，顺利选出Leader对外提供集群服务，容错数为1）
+- 5节点zookeeper，两个主节点挂了，另外三个备节点过半，对外提供集群服务，容错数为2
+- 6节点zookeeper，两个主节点挂了，另外四个备节点过半，对外提供集群服务，容错数为2，
+
 
 主节点master上
 
