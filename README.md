@@ -7,7 +7,7 @@ Here are some tips:
 
 `maven-spark.md` records how to use maven to pack a spark application and submit it to the spark-cluster in yarn-client mode.
 
-`hdfs-neo4j.md` shows how to store graph-data in neo4j-database with data loaded from HDFS directly. (Neo4j is a database designed for storing graph-structural data)
+`hdfs-neo4j.md` shows a demo to store graph-data in neo4j-database with data loaded from HDFS directly. (Neo4j is a database designed for storing graph-structural data)
 
 `pmml-scala-spark.md` contains the codes that using spark to run a GBDT-model which was pretrained in tensorflow and was saved in `pmml` format.
 
