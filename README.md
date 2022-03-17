@@ -3,7 +3,7 @@ Mac: hadoop-cluster(3.3.1)+zookeeper+hbase(1.2.6)+spark(3.1.2)
 
 Here are some tips: 
 
-`Hbase-HA.md` notes the process of  setting up a highly available hbase-cluster with zookeeper. 
+`Hbase-HA.md` notes the process of setting up a highly available hbase-cluster with zookeeper. 
 
 `maven-spark.md` records how to use maven to pack a spark application and submit it to the spark-cluster in yarn-client mode.
 
