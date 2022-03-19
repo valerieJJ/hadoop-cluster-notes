@@ -1,5 +1,8 @@
 # Hbase spark Scala读写
 
+<img width="1331" alt="image" src="https://user-images.githubusercontent.com/43733497/159134974-7a97456e-8034-46b8-b2ac-3295391d6dca.png">
+
+
 1）
 
 ```scala
