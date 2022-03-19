@@ -11,4 +11,8 @@ Here are some tips:
 
 `pmml-scala-spark.md` contains the codes that using spark to run a GBDT-model which was pretrained in tensorflow and was saved in `pmml` format.
 
+
 Note that more codes to operate HDFS&Hbase in Scala is available on this site https://github.com/valerieJJ/RecSys
+
+
+<img width="1331" alt="image" src="https://user-images.githubusercontent.com/43733497/159135016-59b4a35e-0c67-4323-8fe5-cb0ca19ecefb.png">
