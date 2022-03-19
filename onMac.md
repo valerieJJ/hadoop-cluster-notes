@@ -294,3 +294,5 @@ start-worker.sh spark://master:7077
 solution：调整节点时间一致
 查看时间 `date`      
 <img width="824" alt="image" src="https://user-images.githubusercontent.com/43733497/159126513-26961d4c-9daf-4255-918e-365191ba0d62.png">
+
+<img width="848" alt="image" src="https://user-images.githubusercontent.com/43733497/159126553-9d375650-004e-45d4-a0d4-12b5b1194dd0.png">
