@@ -289,3 +289,8 @@ start-worker.sh spark://master:7077
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/eb01fb57de8f429db6eb3be5fd0a1b1e.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA57qq5aSn56aP,size_20,color_FFFFFF,t_70,g_se,x_16)
 
+# solved
+### Hregionserver都可启动，但是web上不显示
+solution：调整节点时间一致
+查看时间 `date`      
+<img width="824" alt="image" src="https://user-images.githubusercontent.com/43733497/159126513-26961d4c-9daf-4255-918e-365191ba0d62.png">
